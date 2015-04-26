@@ -54,14 +54,17 @@ a:link, a:visited {
 	float: right;
 	width: 480px;
 }
-
+.nav-caption:hover {
+    background-color: #c0d5b4;
+}
 .nav-caption {
-	float: left;
-	font-size: 17px;
-	line-height: 60px;
-	margin-left: 60px;
-	font-weight: 400;
+    float: left;
+    font-size: 17px;
+    top: 20px;
+    margin-left: 60px;
+    font-weight: 400;
     cursor: pointer;
+    position: relative;
 }
 
 #login {
@@ -69,7 +72,7 @@ a:link, a:visited {
     border-radius: 4px;
     padding: 0px 15px;
     height: 40px;
-    margin-top: 10px;
+    margin-top: -10px;
     line-height: 2.5;
     margin-left: 35px;
     color: #6da977;
@@ -163,6 +166,7 @@ a:link, a:visited {
     color: white;
     position: relative;
     top: 15px;
+    cursor: pointer;
 }
 
 #long {
